@@ -43,8 +43,13 @@ select2基于vue的组件
 ##属性说明
 
 `model`       *必须传入，为已选择的值，数据为id的数组
+
 `data`        *必须传入，为数据源，结构如：`{id: 1, title: 'CSS3'}`
+
 `tags`        是否已标签显示，默认是`true`
+
 `split`       分隔符，默认是`[',', ' ','#']`
+
 `invariant`   不变值，数据为id数组
+
 `placeholder` 输入提示
