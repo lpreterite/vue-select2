@@ -20,7 +20,7 @@ module.exports = {
                 return [',', ' ','#']
             }
         },
-        unselect: {
+        invariant: {
             required: false,
             type: Array,
             default: function(){
@@ -48,8 +48,8 @@ module.exports = {
             this.model = this.$$.select.val()
         }.bind(this))
         .on('select2:unselecting',function(e){
-            for (var i = this.unselect.length - 1; i >= 0; i--) {
-                if(e.params.args.data.id != this.unselect[i]) continue
+            for (var i = this.invariant.length - 1; i >= 0; i--) {
+                if(e.params.args.data.id != this.invariant[i]) continue
                 e.preventDefault()
             }
         }.bind(this))
