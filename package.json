@@ -1,0 +1,15 @@
+{
+  "name": "vue-select2",
+  "version": "0.1.0",
+  "description": "select2基于vue的组件",
+  "main": "vue-select2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "select2"
+  ],
+  "author": "packy <lpreterite@126.com>",
+  "license": "MIT"
+}

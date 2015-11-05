@@ -1,0 +1,28 @@
+{
+  "name": "vue-select2",
+  "version": "0.0.1",
+  "authors": [
+    "packy <lpreterite@126.com>"
+  ],
+  "description": "select2基于vue的组件",
+  "main": "vue-select2.js",
+  "moduleType": [],
+  "keywords": [
+    "vue",
+    "select2"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "select2": "~4.0.0",
+    "vue": "~1.0.4"
+  }
+}
